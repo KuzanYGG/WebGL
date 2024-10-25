@@ -1,0 +1,241 @@
+<linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="LightRotation" preserve="all" />
+    <type fullname="StadiumLightManager" preserve="all" />
+    <type fullname="VLB.EffectPulse" preserve="all" />
+    <type fullname="VLB.VolumetricLightBeamSD" preserve="all" />
+    <type fullname="VLB.MinMaxRangeFloat" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="com.ygg.common.core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Com.YGG.Common.Core.Animation.AnimationEventHandler" preserve="all" />
+    <type fullname="Com.YGG.Common.Core.Component.DontDestroyOnLoadComponent" preserve="all" />
+  </assembly>
+  <assembly fullname="DOTweenPro, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="DG.Tweening.DOTweenPath" preserve="all" />
+  </assembly>
+  <assembly fullname="Proxima, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Proxima.ProximaInspector" preserve="all" />
+  </assembly>
+  <assembly fullname="R3.Unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="R3.Triggers.ObservableStateMachineTrigger" preserve="all" />
+  </assembly>
+  <assembly fullname="spine-unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Spine.Unity.AnimationReferenceAsset" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonAnimation" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonDataAsset" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonGraphic" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonSubmeshGraphic" preserve="all" />
+    <type fullname="Spine.Unity.SpineAtlasAsset" preserve="all" />
+    <type fullname="Spine.Unity.MeshGenerator" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.MeshGenerator/Settings" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.SkeletonRenderer/SpriteMaskInteractionMaterials" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.BlendModeMaterials" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.BlendModeMaterials/ReplacementMaterial" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.U2D.SpriteShape" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteShapeController" preserve="all" />
+    <type fullname="UnityEngine.U2D.Spline" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.U2D.SplineControlPoint" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.U2D.AngleRange" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.U2D.CornerSprite" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceAtlasedSprite" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceGameObject" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Volume" preserve="all" />
+    <type fullname="UnityEngine.Rendering.VolumeProfile" preserve="all" />
+    <type fullname="UnityEngine.Rendering.BoolParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.ClampedFloatParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.ClampedIntParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.ColorParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.MinFloatParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.TextureParameter" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Universal.Bloom" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.DownscaleParameter" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AtlasSpriteProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.TMP_InputField" preserve="all" />
+    <type fullname="TMPro.TMP_SpriteAsset" preserve="all" />
+    <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_SpriteCharacter" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_SpriteGlyph" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/OnChangeEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/SelectionEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/SubmitEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/TextSelectionEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/TouchScreenKeyboardEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Animation" preserve="all" />
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animations.RotationConstraint" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.AnimatorOverrideController" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioListener" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.LineRenderer" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.Rendering.SortingGroup" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.TextAsset" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider2D" preserve="all" />
+    <type fullname="UnityEngine.PolygonCollider2D" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.SpriteMaskModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.SpriteMask" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.SpriteShapeModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.U2D.SpriteShapeRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
+    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
+    <type fullname="UnityEngine.UI.Slider" preserve="all" />
+    <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="ygg.shared.runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="YGG.Shared.Runtime.GameMasterData.Avatar.CharacterModelDataAsset" preserve="all" />
+    <type fullname="YGG.Shared.Runtime.GameMasterData.Avatar.NpcCharacterDataAsset" preserve="all" />
+    <type fullname="YGG.Shared.Runtime.GameMasterData.CharAssetDataTable" preserve="all" />
+    <type fullname="YGG.Shared.Runtime.GameMasterData.Map.MapPathProfileDataAsset" preserve="all" />
+    <type fullname="YGG.Shared.Runtime.GameMasterData.VipLevelDataTable" preserve="all" />
+    <type fullname="YGG.Shared.Runtime.GameMasterData.Map.MapPathProfileDataAssetData" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Shared.Runtime.GameMasterData.Map.MapPointDetailData" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Shared.Runtime.GameMasterData.TextAssetDataTableRow" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Shared.Runtime.GameMasterData.VipLevelDataTableRow" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Shared.Runtime.GameMasterData.Avatar.NpcCharacterDataAssetData" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Shared.Runtime.Popup.PopupButton" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Shared.Runtime.Popup.PopupIcon" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Shared.Runtime.GameMasterData.Avatar.CharacterDataAssetData" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="ygg.visualization.runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="SetMaskForAnimation" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.CarController" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.CarMovement" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.CharacterController.MovementExecutor.CubieCharacterMovementExecutor" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.NeonLights" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.NPCCelebrationPoint" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.NPCCharacterController" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.NPCCharacterMovement" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.NPCScenario" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.Playground.Area.AreaAnimationComponent" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.Playground.CenterStage.EventSpecificAnimationStageBehaviour" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.Playground.MovingPlatform.CornerPlatformComponent" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.Playground.MovingPlatform.CornerPlatformLanding" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.Playground.MovingPlatform.NormalPlatformComponent" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.Playground.ScrollingSymbol.ScrollingSymbolComponent" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.Playground.WinningEffect.WinningEffectComponent" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.PopupManager" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.Sound.SoundManager" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.Spin.AutoScaleAndCenter" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.Spin.ReSpinCell" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.Spin.ReSpinCollection" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.Spin.ReSpinPresenter" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.Spin.ScrollingReSpinCell" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.UI.HUD.GameplayHUDPresenter" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.UI.HUD.GameplayHUDView" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.UI.HUD.Major.ValueTextboxComponent" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.UI.HUD.RollPresenter" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.UI.HUD.RollView" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.UI.HUD.SpinPresenter" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.UI.HUD.SpinView" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.UI.Popup.PopupPresenter" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.UI.Popup.PopupView" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.UI.Setting.SettingPresenter" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.UI.Setting.SettingView" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.UI.SpinFeaturePresenter" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.UI.SpinFeatureView" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.ValueToUITextPresenter" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.ValueToUITextView" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.UI.SpinFeatureView/FeatureSkinData" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Visualization.Runtime.CelebrationPointData" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Visualization.Runtime.Playground.ScrollingSymbol.ScrollingSymbolComponent/SymbolScrollSprite" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Visualization.Runtime.Playground.ScrollingSymbol.ScrollingSymbolComponent/SymbolSprite" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Visualization.Runtime.NeonLights/BlinkStep" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Visualization.Runtime.Playground.MovingPlatform.CornerPlatformComponent/CornerPlatformData" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Visualization.Runtime.Playground.WinningEffect.WinningAnimationInfo" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Visualization.Runtime.UI.Popup.PopupAssetData`1" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="DOTween">
+    <type fullname="DG.Tweening.Plugins.Core.PathCore.Path" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextCoreFontEngineModule">
+    <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphValueRecord" preserve="nothing" serialized="true" />
+  </assembly>
+</linker>
