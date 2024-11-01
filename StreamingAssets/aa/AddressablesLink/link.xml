@@ -46,9 +46,9 @@
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceAtlasedSprite" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceGameObject" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.InputSystem, Version=1.11.1.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
@@ -254,13 +254,13 @@
     <type fullname="YGG.Visualization.Runtime.ValueToUITextView" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.CelebrationPointData" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.NeonLights/BlinkStep" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Visualization.Runtime.Playground.Area.AreaLoader/AreaInfo" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.Playground.FeatureController.FreeSpinController" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.Playground.FeatureController.ReSpinController" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.Playground.MovingPlatform.CornerPlatformComponent/CornerPlatformData" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.Playground.ScrollingSymbol.ScrollingSymbolComponent/SymbolScrollSprite" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.Playground.ScrollingSymbol.ScrollingSymbolComponent/SymbolSprite" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.UI.SpinFeatureView/FeatureSkinData" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Visualization.Runtime.Playground.Area.AreaLoader/AreaInfo" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.UI.Popup.PopupAssetData`1" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="DOTween">
