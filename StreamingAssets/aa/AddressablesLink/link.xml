@@ -20,12 +20,14 @@
   </assembly>
   <assembly fullname="spine-unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Spine.Unity.AnimationReferenceAsset" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonAnimation" preserve="all" />
     <type fullname="Spine.Unity.SkeletonDataAsset" preserve="all" />
     <type fullname="Spine.Unity.SkeletonGraphic" preserve="all" />
     <type fullname="Spine.Unity.SkeletonSubmeshGraphic" preserve="all" />
     <type fullname="Spine.Unity.SpineAtlasAsset" preserve="all" />
     <type fullname="Spine.Unity.MeshGenerator" preserve="nothing" serialized="true" />
     <type fullname="Spine.Unity.MeshGenerator/Settings" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.SkeletonRenderer/SpriteMaskInteractionMaterials" preserve="nothing" serialized="true" />
     <type fullname="Spine.Unity.BlendModeMaterials" preserve="nothing" serialized="true" />
     <type fullname="Spine.Unity.BlendModeMaterials/ReplacementMaterial" preserve="nothing" serialized="true" />
   </assembly>
@@ -209,6 +211,7 @@
     <type fullname="LightRotation" preserve="all" />
     <type fullname="SetMaskForAnimation" preserve="all" />
     <type fullname="StadiumLightManager" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.AreaSpineAnimationComponent" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Camera.CameraController" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Camera.CameraManager" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.CarController" preserve="all" />
