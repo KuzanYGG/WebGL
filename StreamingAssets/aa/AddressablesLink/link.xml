@@ -25,10 +25,10 @@
     <type fullname="Spine.Unity.SkeletonGraphic" preserve="all" />
     <type fullname="Spine.Unity.SkeletonSubmeshGraphic" preserve="all" />
     <type fullname="Spine.Unity.SpineAtlasAsset" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonRenderer/SpriteMaskInteractionMaterials" preserve="nothing" serialized="true" />
     <type fullname="Spine.Unity.MeshGenerator" preserve="nothing" serialized="true" />
     <type fullname="Spine.Unity.MeshGenerator/Settings" preserve="nothing" serialized="true" />
     <type fullname="Spine.Unity.BlendModeMaterials" preserve="nothing" serialized="true" />
-    <type fullname="Spine.Unity.SkeletonRenderer/SpriteMaskInteractionMaterials" preserve="nothing" serialized="true" />
     <type fullname="Spine.Unity.BlendModeMaterials/ReplacementMaterial" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -220,6 +220,7 @@
     <type fullname="YGG.Visualization.Runtime.CharacterController.CharacterMovementComponent" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.CharacterController.GameCharacterController" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.CharacterController.MovementExecutor.CubieCharacterMovementExecutor" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.DebugVersion" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.NeonLights" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.NPCCelebrationPoint" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.NPCCharacterController" preserve="all" />
