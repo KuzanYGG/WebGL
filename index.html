@@ -33,7 +33,8 @@
           }
           const {type, value} = message;
           if (type === 'jwt') {
-              window.localStorage.setItem('jwt', value);
+              console.log("Set Jwt to game through YYGWebGL.js");
+              YYGSendMessageToUnityCustom('WebGLManager', 'SetJwt', value)
           }
       }
       window.addEventListener('message', handleGameEvents);

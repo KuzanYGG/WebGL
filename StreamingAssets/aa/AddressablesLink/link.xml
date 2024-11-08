@@ -221,6 +221,8 @@
     <type fullname="YGG.Visualization.Runtime.CharacterController.GameCharacterController" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.CharacterController.MovementExecutor.CubieCharacterMovementExecutor" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.DebugVersion" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.LoadingPresenter" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.LoadingView" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.NeonLights" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.NPCCelebrationPoint" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.NPCCharacterController" preserve="all" />
