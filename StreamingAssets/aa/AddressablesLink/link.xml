@@ -196,6 +196,7 @@
     <type fullname="YGG.Visualization.Runtime.Playground.MovingPlatform.CornerPlatformComponent" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Playground.MovingPlatform.CornerPlatformLanding" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Playground.MovingPlatform.NormalPlatformComponent" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.Playground.PlayGroundAssetManager" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Playground.PlaygroundManager" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Playground.ScrollingSymbol.ScrollingSymbolComponent" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.PopupManager" preserve="all" />
@@ -222,17 +223,17 @@
     <type fullname="YGG.Visualization.Runtime.ValueToUITextPresenter" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.ValueToUITextView" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.WalkCharacterMovementExecutor" preserve="all" />
-    <type fullname="YGG.Visualization.Runtime.AxiePathNpcMovementExecutor" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Visualization.Runtime.PathNpcMovementExecutor" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Visualization.Runtime.PixelPathNpcMovementExecutor" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.Playground.FeatureController.FreeSpinController" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.Playground.FeatureController.ReSpinController" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.Playground.MovingPlatform.CornerPlatformComponent/CornerPlatformData" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.Playground.ScrollingSymbol.ScrollingSymbolComponent/SymbolScrollSprite" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.Playground.ScrollingSymbol.ScrollingSymbolComponent/SymbolSprite" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Visualization.Runtime.UI.SpinFeatureView/FeatureSkinData" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Visualization.Runtime.AxiePathNpcMovementExecutor" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Visualization.Runtime.PathNpcMovementExecutor" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Visualization.Runtime.PixelPathNpcMovementExecutor" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.SpineNpcRenderHandler" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.SpineSkinByAnimNpcRenderHandler" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Visualization.Runtime.UI.SpinFeatureView/FeatureSkinData" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.UI.Popup.PopupAssetData`1" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="DOTween">
