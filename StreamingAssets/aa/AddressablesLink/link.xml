@@ -6,8 +6,8 @@
     <type fullname="VLB.MinMaxRangeFloat" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="com.ygg.common.core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="Com.YGG.Common.Core.Animation.AnimationEventHandler" preserve="all" />
-    <type fullname="Com.YGG.Common.Core.Component.DontDestroyOnLoadComponent" preserve="all" />
+    <type fullname="YGG.Common.Core.Animation.Scripts.AnimationEventHandler" preserve="all" />
+    <type fullname="YGG.Common.Core.Component.DontDestroyOnLoadComponent" preserve="all" />
   </assembly>
   <assembly fullname="DOTweenPro, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="DG.Tweening.DOTweenPath" preserve="all" />
@@ -83,6 +83,7 @@
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
     <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
@@ -183,6 +184,7 @@
     <type fullname="YGG.Visualization.Runtime.AssetLoader" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Camera.CameraController" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Camera.CameraManager" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.CenterStageController" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.CharacterController.CharacterAnimationComponent" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.CharacterController.CharacterMovementComponent" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.CharacterController.GameCharacterController" preserve="all" />
@@ -230,11 +232,11 @@
     <type fullname="YGG.Visualization.Runtime.Playground.ScrollingSymbol.ScrollingSymbolComponent/SymbolScrollSprite" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.Playground.ScrollingSymbol.ScrollingSymbolComponent/SymbolSprite" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.UI.SpinFeatureView/FeatureSkinData" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Visualization.Runtime.Playground.Area.AreaLoader/AreaInfo" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.AxiePathNpcMovementExecutor" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.SpineNpcRenderHandler" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.PixelPathNpcMovementExecutor" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.SpineSkinByAnimNpcRenderHandler" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Visualization.Runtime.Playground.Area.AreaLoader/AreaInfo" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.PathNpcMovementExecutor" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.UI.Popup.PopupAssetData`1" preserve="nothing" serialized="true" />
   </assembly>
@@ -243,6 +245,7 @@
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
