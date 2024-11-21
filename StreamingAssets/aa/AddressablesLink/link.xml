@@ -183,6 +183,7 @@
     <type fullname="YGG.Visualization.Runtime.AssetLoader" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Camera.CameraController" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Camera.CameraManager" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.CenterStageAssetLoader" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.CenterStageController" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.CharacterController.CharacterAnimationComponent" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.CharacterController.CharacterMovementComponent" preserve="all" />
@@ -235,6 +236,7 @@
     <type fullname="YGG.Visualization.Runtime.SpineNpcRenderHandler" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.PixelPathNpcMovementExecutor" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.SpineSkinByAnimNpcRenderHandler" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Visualization.Runtime.CenterStageAssetLoader/ObjectInfo" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.Playground.Area.AreaLoader/AreaInfo" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.PathNpcMovementExecutor" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.UI.Popup.PopupAssetData`1" preserve="nothing" serialized="true" />
