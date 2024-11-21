@@ -192,6 +192,7 @@
     <type fullname="YGG.Visualization.Runtime.LoadingView" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.NpcCharacterController" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.NpcCharacterMovement" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.Playground.Area.AreaLoader" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Playground.CenterStage.EventSpecificAnimationStageBehaviour" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Playground.MovingPlatform.CornerPlatformComponent" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Playground.MovingPlatform.CornerPlatformLanding" preserve="all" />
@@ -229,11 +230,12 @@
     <type fullname="YGG.Visualization.Runtime.Playground.ScrollingSymbol.ScrollingSymbolComponent/SymbolScrollSprite" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.Playground.ScrollingSymbol.ScrollingSymbolComponent/SymbolSprite" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.UI.SpinFeatureView/FeatureSkinData" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Visualization.Runtime.Playground.Area.AreaLoader/AreaInfo" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.AxiePathNpcMovementExecutor" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Visualization.Runtime.PathNpcMovementExecutor" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Visualization.Runtime.PixelPathNpcMovementExecutor" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.SpineNpcRenderHandler" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Visualization.Runtime.PixelPathNpcMovementExecutor" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.SpineSkinByAnimNpcRenderHandler" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Visualization.Runtime.PathNpcMovementExecutor" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.UI.Popup.PopupAssetData`1" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="DOTween">
