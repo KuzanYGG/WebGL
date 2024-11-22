@@ -6,7 +6,7 @@
     <type fullname="VLB.MinMaxRangeFloat" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="com.ygg.common.core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="YGG.Common.Core.Animation.Scripts.AnimationEventHandler" preserve="all" />
+    <type fullname="YGG.Common.Core.Animation.AnimationEventHandler" preserve="all" />
     <type fullname="YGG.Common.Core.Component.DontDestroyOnLoadComponent" preserve="all" />
   </assembly>
   <assembly fullname="DOTweenPro, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
