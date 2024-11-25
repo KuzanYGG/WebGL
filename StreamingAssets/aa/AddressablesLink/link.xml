@@ -19,10 +19,10 @@
     <type fullname="Spine.Unity.SkeletonSubmeshGraphic" preserve="all" />
     <type fullname="Spine.Unity.SpineAtlasAsset" preserve="all" />
     <type fullname="Spine.Unity.SkeletonRenderer/SpriteMaskInteractionMaterials" preserve="nothing" serialized="true" />
-    <type fullname="Spine.Unity.BlendModeMaterials" preserve="nothing" serialized="true" />
-    <type fullname="Spine.Unity.BlendModeMaterials/ReplacementMaterial" preserve="nothing" serialized="true" />
     <type fullname="Spine.Unity.MeshGenerator" preserve="nothing" serialized="true" />
     <type fullname="Spine.Unity.MeshGenerator/Settings" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.BlendModeMaterials" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.BlendModeMaterials/ReplacementMaterial" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.U2D.SpriteShape" preserve="all" />
@@ -66,8 +66,8 @@
     <type fullname="UnityEngine.Rendering.Universal.Bloom" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.DownscaleParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
@@ -85,7 +85,6 @@
     <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_SpriteCharacter" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_SpriteGlyph" preserve="nothing" serialized="true" />
@@ -110,6 +109,7 @@
     <type fullname="UnityEngine.LightingSettings" preserve="all" />
     <type fullname="UnityEngine.LightmapSettings" preserve="all" />
     <type fullname="UnityEngine.LightProbes" preserve="all" />
+    <type fullname="UnityEngine.LineRenderer" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
@@ -175,6 +175,8 @@
     <type fullname="YGG.Shared.Runtime.GameMasterData.Map.MapPointDetailData" preserve="nothing" serialized="true" />
     <type fullname="YGG.Shared.Runtime.GameMasterData.TextAssetDataTableRow" preserve="nothing" serialized="true" />
     <type fullname="YGG.Shared.Runtime.GameMasterData.VipLevelDataTableRow" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Shared.Runtime.Popup.PopupButton" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Shared.Runtime.Popup.PopupIcon" preserve="nothing" serialized="true" />
     <type fullname="YGG.Shared.Runtime.GameMasterData.Avatar.CharacterDataAssetData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="ygg.visualization.runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -195,6 +197,7 @@
     <type fullname="YGG.Visualization.Runtime.Playground.Area.AreaLoader" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Playground.CenterStage.EventSpecificAnimationStageBehaviour" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Playground.MovingPlatform.CornerPlatformComponent" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.Playground.MovingPlatform.CornerPlatformLanding" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Playground.MovingPlatform.NormalPlatformComponent" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Playground.PlayGroundAssetManager" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Playground.PlaygroundManager" preserve="all" />
@@ -202,7 +205,10 @@
     <type fullname="YGG.Visualization.Runtime.PopupManager" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Sound.SoundManager" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Spin.AutoScaleAndCenter" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.Spin.ReSpinCell" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.Spin.ReSpinCollection" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.Spin.ReSpinPresenter" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.Spin.ScrollingReSpinCell" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.UI.GameUIManager" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.UI.HUD.GameplayHUDPresenter" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.UI.HUD.GameplayHUDView" preserve="all" />
@@ -211,6 +217,8 @@
     <type fullname="YGG.Visualization.Runtime.UI.HUD.RollView" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.UI.HUD.SpinPresenter" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.UI.HUD.SpinView" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.UI.Popup.PopupPresenter" preserve="all" />
+    <type fullname="YGG.Visualization.Runtime.UI.Popup.PopupView" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.UI.Setting.SettingPresenter" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.UI.Setting.SettingView" preserve="all" />
     <type fullname="YGG.Visualization.Runtime.UI.SpinFeaturePresenter" preserve="all" />
@@ -231,13 +239,13 @@
     <type fullname="YGG.Visualization.Runtime.CenterStageAssetLoader/ObjectInfo" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.Playground.Area.AreaLoader/AreaInfo" preserve="nothing" serialized="true" />
     <type fullname="YGG.Visualization.Runtime.PathNpcMovementExecutor" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Visualization.Runtime.UI.Popup.PopupAssetData`1" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="DOTween">
     <type fullname="DG.Tweening.Plugins.Core.PathCore.Path" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
