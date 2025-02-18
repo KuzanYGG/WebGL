@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | 001_YGG-World</title>
+    <title>Unity Web Player | Lobby</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-logo-title-footer"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">001_YGG-World</div>
+        <div id="unity-build-title">Lobby</div>
       </div>
     </div>
     <script>
@@ -35,6 +35,11 @@
           if (type === 'jwt') {
               console.log("Set Jwt to game through YYGWebGL.js");
               YYGSendMessageToUnityCustom('WebGLManager', 'SetJwt', value)
+          }
+          
+          if (type === 'resize') {
+              console.log("Check address bar height");
+              YYGSendMessageToUnityCustom('WebGLManager', 'OnAddressBarChanged', value);
           }
       }
       window.addEventListener('message', handleGameEvents);
@@ -71,13 +76,13 @@
       var loaderUrl = buildUrl + "/WebGL.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/WebGL.data.unityweb",
-        frameworkUrl: buildUrl + "/WebGL.framework.js.unityweb",
-        codeUrl: buildUrl + "/WebGL.wasm.unityweb",
+        dataUrl: buildUrl + "/WebGL.data",
+        frameworkUrl: buildUrl + "/WebGL.framework.js",
+        codeUrl: buildUrl + "/WebGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "YGG.VN",
-        productName: "001_YGG-World",
-        productVersion: "Dev - 1.0.0 Build 88",
+        productName: "Lobby",
+        productVersion: "Dev1-0.0.1-Build-4",
         showBanner: unityShowBanner,
       };
 
