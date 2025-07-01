@@ -12,10 +12,10 @@ pipeline {
 						]
 					if (params.Clean) {
 						echo "Will do clean before checkout"
-						scmConfig.extensions << [$class: 'cleanBeforeCheckout']
+						scmConfig.extensions << [$class: 'CleanBeforeCheckout']
 					}
 					scmConfig.extensions << [
-						$class: 'submodule',
+						$class: 'SubmoduleOption',
 						recursiveSubmodules: true,
 						reference: ''
 					]
