@@ -12,6 +12,7 @@ pipeline {
 							extensions: []
 						]
 					if (params.Clean) {
+						echo "Will do clean before checkout"
 						scmConfig.extensions << [$class: 'CleanBeforeCheckout']
 					}
 					scmConfig.extensions << [
