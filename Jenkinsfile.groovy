@@ -4,7 +4,10 @@ pipeline {
     stages {
         stage('Checkout GIT') {
             steps {
-                checkout scmGit(branches: [[name: '*/${GitBranch}']], extensions: [submodule(recursiveSubmodules: true, reference: '')], userRemoteConfigs: [[credentialsId: 'KuzanYGG', url: 'https://github.com/YGG-Vietnam/YGG_Lobby.git']])
+                checkout([
+                    $class: 'GitSCM',
+                    branches: [[name: "*/Lobby"]],
+                ])
             }
         }
         
