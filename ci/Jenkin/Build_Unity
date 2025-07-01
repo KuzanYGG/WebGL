@@ -12,7 +12,10 @@ pipeline {
 						]
 					if (params.Clean) {
 						echo "Will do clean before checkout"
-						scmConfig.extensions << [$class: 'CleanBeforeCheckout']
+						scmConfig.extensions << [
+							$class: 'CleanBeforeCheckout',
+							deleteUntrackedNestedRepositories: true
+						]
 					}
 					scmConfig.extensions << [
 						$class: 'SubmoduleOption',
