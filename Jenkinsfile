@@ -1,15 +1,12 @@
 pipeline {
     agent { label 'Kuzan-Window'}
-    parameters {
-        string(name: 'branch', defaultValue: 'developlemnt')
-    }
     stages {
         stage('Checkout GIT') {
             steps {
-				echo "${params.branch}"
+				echo "${branch}"
                 checkout([
                     $class: 'GitSCM',
-                    branches: [[name: "*${params.branch}"]],
+                    branches: [[name: "*${branch}"]],
                 ])
             }
         }
