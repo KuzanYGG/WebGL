@@ -4,9 +4,10 @@ pipeline {
     stages {
         stage('Checkout GIT') {
             steps {
+				echo ${branch}
                 checkout([
                     $class: 'GitSCM',
-                    branches: [[name: "*/${branch}"]],
+                    branches: [[name: "*${branch}"]],
                 ])
             }
         }
