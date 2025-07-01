@@ -7,7 +7,7 @@ pipeline {
 					echo "Checkout branch = ${params.branch}"
 					def scmConfig = [
 							$class: 'GitSCM',
-							branches: [[name: "*/${params.branch}"]],
+							branches: [[name: "${params.branch}"]],
 							userRemoteConfigs: [],
 							extensions: []
 						]
