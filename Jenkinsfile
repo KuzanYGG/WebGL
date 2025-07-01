@@ -1,6 +1,8 @@
 pipeline {
     agent { label 'Kuzan-Window'}
-    
+    parameters {
+        string(name: 'branch', defaultValue: 'developlemnt')
+    }
     stages {
         stage('Checkout GIT') {
             steps {
