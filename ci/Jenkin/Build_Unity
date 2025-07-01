@@ -3,11 +3,22 @@ pipeline {
     stages {
         stage('Checkout GIT') {
             steps {
-				echo "${branch}"
-                checkout([
-                    $class: 'GitSCM',
-                    branches: [[name: "*${branch}"]],
-                ])
+				echo "Checkout branch = ${params.branch}"
+				def scmConfig = [
+                        $class: 'GitSCM',
+                        branches: [[name: "*/${params.branch}"]],
+                        userRemoteConfigs: [],
+                        extensions: []
+                    ]
+				if (params.Clean) {
+                    scmConfig.extensions << [$class: 'CleanBeforeCheckout']
+                }
+				scmConfig.extensions << [
+                    $class: 'SubmoduleOption',
+                    recursiveSubmodules: true,
+                    reference: ''
+                ]
+                checkout scmConfig
             }
         }
         
