@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout GIT') {
             steps {
-				echo ${params.branch}
+				echo "${params.branch}"
                 checkout([
                     $class: 'GitSCM',
                     branches: [[name: "*${params.branch}"]],
