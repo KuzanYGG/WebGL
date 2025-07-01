@@ -25,27 +25,6 @@
     </div>
     <script>
       var canvas = document.querySelector("#unity-canvas");
-      const handleGameEvents = (event) => {
-          console.log('event', event);
-          var message = event.data;
-          if (typeof message !== 'object') {
-              return;
-          }
-          const {type, value} = message;
-          if (type === 'jwt') {
-              console.log("Set Jwt to game through YYGWebGL.js");
-              YYGSendMessageToUnityCustom('WebGLManager', 'SetJwt', value)
-          }
-          
-          if (type === 'resize') {
-              console.log("Check address bar height");
-              YYGSendMessageToUnityCustom('WebGLManager', 'OnAddressBarChanged', value);
-          }
-      }
-      window.addEventListener('message', handleGameEvents);
-      window.onbeforeunload = function() {
-          window.removeEventListener('message', handleGameEvents)
-      }
       
       // Shows a temporary message banner/ribbon for a few seconds, or
       // a permanent error message on top of the canvas if type=='error'.
@@ -72,13 +51,31 @@
         updateBannerVisibility();
       }
 
+      function controlCache (url) {
+          // Caching enabled for .data and .bundle files.
+          // Revalidate if file is up to date before loading from cache
+          if (url.match(/\.data/) || url.match(/\.bundle/)) {
+              return "must-revalidate";
+          }
+
+          // Caching enabled for .mp4 and .custom files
+          // Load file from cache without revalidation.
+          if (url.match(/\.mp4/) || url.match(/\.custom/)) {
+              return "immutable";
+          }
+
+          // Disable explicit caching for all other files.
+          // Note: the default browser cache may cache them anyway.
+          return "no-store";
+      }
+
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/WebGL.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/WebGL.data",
-        frameworkUrl: buildUrl + "/WebGL.framework.js",
-        codeUrl: buildUrl + "/WebGL.wasm",
+        dataUrl: buildUrl + "/WebGL.data.br",
+        frameworkUrl: buildUrl + "/WebGL.framework.js.br",
+        codeUrl: buildUrl + "/WebGL.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "YGG.VN",
         productName: "Lobby",
@@ -147,6 +144,7 @@
       document.body.appendChild(script);
 
     </script>
-	<script src="./Scripts/YYGWebGL.js"></script>
+	<script src="./Scripts/YGGWebGL.js"></script>
+    <script src="./Scripts/YGGCommon.js"></script>
   </body>
 </html>

@@ -1,19 +1,27 @@
 <linker>
+  <assembly fullname="Coffee.UIParticle, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Coffee.UIExtensions.UIParticle" preserve="all" />
+  </assembly>
   <assembly fullname="com.ygg.common.core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="YGG.Common.Core.Animation.AnimationEventHandler" preserve="all" />
     <type fullname="YGG.Common.Core.Component.DontDestroyOnLoadComponent" preserve="all" />
-    <type fullname="YGG.Common.Core.Configurations.GameSettingDataAsset" preserve="all" />
-    <type fullname="YGG.Common.Core.Configurations.GameDefinitionModel" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Common.Core.Component.ScrollRectSpeedController" preserve="all" />
+    <type fullname="YGG.Common.Core.DynamicActionSystem.DynamicActionConfigDataTable" preserve="all" />
+    <type fullname="YGG.Common.Core.UI.UISetProfileDataAsset" preserve="all" />
+    <type fullname="YGG.Common.Core.UI.UIViewNavigator" preserve="all" />
+    <type fullname="YGG.Common.Core.UI.UIAssetData" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Common.Core.UI.UISetProfileDataAssetData" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Common.Core.DynamicActionSystem.DynamicActionExecutorFactory" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="com.ygg.common.core.external.runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="YGG.Common.Core.External.Runtime.CustomButtonSpine" preserve="all" />
   </assembly>
   <assembly fullname="DOTweenPro, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="DG.Tweening.DOTweenPath" preserve="all" />
+    <type fullname="DG.Tweening.DOTweenVisualManager" preserve="all" />
   </assembly>
   <assembly fullname="EnhancedScroller_asmdef, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="EnhancedUI.EnhancedScroller.EnhancedScroller" preserve="all" />
-    <type fullname="EnhancedUI.EnhancedScroller.EnhancedScrollerCellView" preserve="all" />
   </assembly>
   <assembly fullname="R3.Unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="R3.Triggers.ObservableStateMachineTrigger" preserve="all" />
@@ -60,11 +68,11 @@
     <type fullname="Spine.Unity.SkeletonUtility" preserve="all" />
     <type fullname="Spine.Unity.SkeletonUtilityBone" preserve="all" />
     <type fullname="Spine.Unity.SpineAtlasAsset" preserve="all" />
-    <type fullname="Spine.Unity.MeshGenerator" preserve="nothing" serialized="true" />
-    <type fullname="Spine.Unity.MeshGenerator/Settings" preserve="nothing" serialized="true" />
-    <type fullname="Spine.Unity.SkeletonRenderer/SpriteMaskInteractionMaterials" preserve="nothing" serialized="true" />
     <type fullname="Spine.Unity.BlendModeMaterials" preserve="nothing" serialized="true" />
     <type fullname="Spine.Unity.BlendModeMaterials/ReplacementMaterial" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.SkeletonRenderer/SpriteMaskInteractionMaterials" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.MeshGenerator" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.MeshGenerator/Settings" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.U2D.SpriteShape" preserve="all" />
@@ -77,8 +85,8 @@
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReferenceSprite" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceGameObject" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceSprite" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Unity.Cinemachine.CinemachinePipeline" preserve="all" />
@@ -88,7 +96,7 @@
     <type fullname="Unity.Cinemachine.LegacyLensSettings" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.PrioritySettings" preserve="nothing" serialized="true" />
   </assembly>
-  <assembly fullname="Unity.InputSystem, Version=1.11.1.0, Culture=neutral, PublicKeyToken=null">
+  <assembly fullname="Unity.InputSystem, Version=1.14.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
     <type fullname="UnityEngine.InputSystem.InputActionReference" preserve="all" />
     <type fullname="UnityEngine.InputSystem.UI.InputSystemUIInputModule" preserve="all" />
@@ -128,22 +136,24 @@
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.GlyphAnchorPoint" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.LigatureSubstitutionRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.MarkPositionAdjustment" preserve="nothing" serialized="true" />
     <type fullname="TMPro.MarkToBaseAdjustmentRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Animation" preserve="all" />
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animations.LookAtConstraint" preserve="all" />
     <type fullname="UnityEngine.Animations.PositionConstraint" preserve="all" />
     <type fullname="UnityEngine.Animations.RotationConstraint" preserve="all" />
     <type fullname="UnityEngine.Animator" preserve="all" />
     <type fullname="UnityEngine.AnimatorOverrideController" preserve="all" />
+    <type fullname="UnityEngine.Avatar" preserve="all" />
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -181,8 +191,8 @@
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
@@ -194,6 +204,7 @@
     <type fullname="UnityEngine.PolygonCollider2D" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
     <type fullname="UnityEngine.MeshCollider" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.SpriteMaskModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -234,19 +245,19 @@
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.InputField/EndEditEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.InputField/OnChangeEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.InputField/SubmitEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Dropdown/OptionData" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Dropdown/OptionDataList" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -262,13 +273,15 @@
     <type fullname="YGG.Game.Shared.Runtime.GameMasterData.CharAssetDataTable" preserve="all" />
     <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Map.MapGameDataTable" preserve="all" />
     <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Map.MapPathProfileDataAsset" preserve="all" />
-    <type fullname="YGG.Game.Shared.Runtime.GameMasterData.TierDataAsset" preserve="all" />
-    <type fullname="YGG.Game.Shared.Runtime.GameMasterData.VipLevelDataTable" preserve="all" />
-    <type fullname="YGG.Game.Shared.Runtime.Popup.PopupButton" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Game.Shared.Runtime.Popup.PopupIcon" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Avatar.NpcCharacterDataAssetData" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Popup.InfoDataTable" preserve="all" />
+    <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Popup.MessageDataTable" preserve="all" />
+    <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Popup.PopupTemplateDataTable" preserve="all" />
+    <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Popup.RewardStreakDataTable" preserve="all" />
+    <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Sound.SoundDataAsset" preserve="all" />
+    <type fullname="YGG.Game.Shared.Runtime.GameMasterData.TierDataTable" preserve="all" />
+    <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Sound.SoundData" preserve="nothing" serialized="true" />
     <type fullname="YGG.Game.Shared.Runtime.GameMasterData.TextAssetDataTableRow" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Game.Shared.Runtime.GameMasterData.VipLevelDataTableRow" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Avatar.NpcCharacterDataAssetData" preserve="nothing" serialized="true" />
     <type fullname="YGG.Game.Shared.Runtime.GameMasterData.AssetDataTableRow" preserve="nothing" serialized="true" />
     <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Avatar.AvatarAccessoryDataTableRow" preserve="nothing" serialized="true" />
     <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Avatar.AvatarDataTableRow" preserve="nothing" serialized="true" />
@@ -276,9 +289,17 @@
     <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Avatar.SubAsset" preserve="nothing" serialized="true" />
     <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Map.MapGameDataTableRow" preserve="nothing" serialized="true" />
     <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Map.SubMapPathProfileData" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Game.Shared.Runtime.GameMasterData.TierData" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Popup.InfoDataTableRow" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Popup.MessageDataTableRow" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Popup.PopupTemplateDataTableRow" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Popup.RewardStreakDataTableRow" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Shared.Runtime.GameMasterData.TierDataTableRow" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Shared.Runtime.Popup.PopupActionCustom" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Shared.Runtime.Popup.PopupMessageData/ButtonData" preserve="nothing" serialized="true" />
     <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Map.MapPathProfileDataAssetData" preserve="nothing" serialized="true" />
     <type fullname="YGG.Game.Shared.Runtime.GameMasterData.Map.MapPointDetailData" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Shared.Runtime.Popup.PopupButton" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Shared.Runtime.Popup.PopupIcon" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="ygg.game.visualization.runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="CircularTextMeshPro" preserve="all" />
@@ -291,13 +312,13 @@
     <type fullname="UIMaterialModifier" preserve="all" />
     <type fullname="UVAnimator" preserve="all" />
     <type fullname="VLB.Config" preserve="all" />
-    <type fullname="VLB.EffectFlicker" preserve="all" />
     <type fullname="VLB.EffectPulse" preserve="all" />
     <type fullname="VLB.ShaderGenerator" preserve="all" />
     <type fullname="VLB.VolumetricDustParticles" preserve="all" />
     <type fullname="VLB.VolumetricLightBeamSD" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.AutoSpinButton" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.B3CornerPlatformComponent" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.BeachDayCornerPlatformComponent" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Camera.Scripts.CameraController" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Camera.Scripts.CameraManager" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Car.Scripts.CarController" preserve="all" />
@@ -307,35 +328,41 @@
     <type fullname="YGG.Game.Visualization.Runtime.CharacterController.BeachDayGameCharacterController" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.CharacterController.CharacterAnimationComponent" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.CharacterController.CharacterMovementComponent" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.CharacterController.CharacterWinningNumberComponent" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.CharacterController.GameCharacterController" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.CharacterController.MovementExecutor.CubieCharacterMovementExecutor" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.CharacterController.MovementExecutor.PudgyPenguinCharacterMovementExecutor" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.CharacterController.MovementExecutor.WalkCharacterMovementExecutor" preserve="all" />
-    <type fullname="YGG.Game.Visualization.Runtime.Components.AssetLoaderComponent" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.CharacterToImageUI" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.CollectRewardPresenter" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.CollectRewardView" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.DebugRoll" preserve="all" />
-    <type fullname="YGG.Game.Visualization.Runtime.GameLifeTimeScope" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.LifeTimeScope.GameLifeTimeScope" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.NPC.NpcSpineCharacterController" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.NPC.NpcSpineCharacterMovement" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.NPC.PathMovementController" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.NPC.Scripts.NPCCelebrationPoint" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.NPC.Scripts.NPCCharacterController" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.NPC.Scripts.NPCCharacterMovement" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.NPC.Scripts.NPCScenario" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.NpcRandomSpineAnimation" preserve="all" />
-    <type fullname="YGG.Game.Visualization.Runtime.PlatformObjectController" preserve="all" />
-    <type fullname="YGG.Game.Visualization.Runtime.PlatformObjectItem" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.PageSelector" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.Area.AreaAnimationComponent" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.Area.AreaLoader" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.Area.AreaSpineAnimationComponent" preserve="all" />
-    <type fullname="YGG.Game.Visualization.Runtime.Playground.Area.B3CenterStageController" preserve="all" />
-    <type fullname="YGG.Game.Visualization.Runtime.Playground.Area.CenterStageAssetLoader" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.Playground.Area.Carnival.CarnivalCenterStageController" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.Area.CenterStageController" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.Playground.Area.PirateCenterFeatureController" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.B3PlaygroundManager" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.BeachDay.BeachDayPlayGroundManager" preserve="all" />
-    <type fullname="YGG.Game.Visualization.Runtime.Playground.CenterStage.CenterStageAnimationEvents" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.CenterStage.EventSpecificAnimationStageBehaviour" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.Playground.CenterStage.GardenPattern.GardenCenterPatternController" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.Playground.CenterStage.GardenPattern.GardenCirclePattern" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.Playground.CenterStage.GardenWavePattern" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.FeatureController.AutoSpinController" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.FeatureController.PudgyCenterFeature" preserve="all" />
-    <type fullname="YGG.Game.Visualization.Runtime.Playground.Lightning.LightRotation" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.Playground.GardenOfZen.ZenPlaygroundManager" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.Playground.Lightning.Rotation" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.Lightning.StadiumLightManager" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.MovingPlatform.B3NormalPlatformComponent" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.MovingPlatform.CornerPlatformComponent" preserve="all" />
@@ -343,6 +370,7 @@
     <type fullname="YGG.Game.Visualization.Runtime.Playground.MovingPlatform.CornerSpineSymbol" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.MovingPlatform.NormalPlatformComponent" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.MovingPlatform.PudgyNormalPlatformComponent" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.Playground.MovingPlatform.Scripts.ZenNormalPlatformComponent" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.MovingPlatform.SpineNormalPlatformComponent" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.NeonLights.NeonLights" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.PlayGroundAssetManager" preserve="all" />
@@ -350,7 +378,10 @@
     <type fullname="YGG.Game.Visualization.Runtime.Playground.PudgyPenguinPlayGroundManager" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.ScrollingSymbol.ScrollingSymbolComponent" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.Symbol.PlaygroundSymbolDataTable" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.PopupBoxRewardView" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.SnowBall" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.Sound.Scripts.BaseSoundController" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.Sound.Scripts.ButtonSoundTrigger" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Sound.Scripts.SoundManager" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Spin.AutoScaleAndCenter" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Spin.ReSpinCell" preserve="all" />
@@ -358,11 +389,16 @@
     <type fullname="YGG.Game.Visualization.Runtime.Spin.ReSpinPresenter" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.Spin.ScrollingReSpinCell" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.ThrowSnowBallComponent" preserve="all" />
-    <type fullname="YGG.Game.Visualization.Runtime.UI.DebugVersion" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.AutoResizeBarWithCanvas" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.ButtonComponent" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.AutoSpinView" preserve="all" />
-    <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.GamePlayHUDController" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.CornerIndicatorView" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.GameFooterView" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.GameHeaderView" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.GameplayHUDPresenter" preserve="all" />
-    <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.GameplayHUDView" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.IndicatorPresenter" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.IndicatorView" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.MultiButtonView" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.RollButton" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.RollPresenter" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.RollView" preserve="all" />
@@ -370,38 +406,72 @@
     <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.SpinFeatureView" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.SpinPresenter" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.SpinView" preserve="all" />
-    <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.ValueTextBox.ValueTextboxComponent" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.UIBankPresenter" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.UIBankView" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.ValueTextBox.ValueToUITextPresenter" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.ValueTextBox.ValueToUITextView" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.UI.Loading.LoadingPresenter" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.UI.Loading.LoadingView" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Notification.SlideNotificationPresenter" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Notification.SliderNotificationView" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.PageFlickSnap" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.UI.PlatformUISelector" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Popup.PopupInfoCellView" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Popup.PopupInfoPresenter" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Popup.PopupInfoView" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.UI.Popup.PopupManager" preserve="all" />
-    <type fullname="YGG.Game.Visualization.Runtime.UI.Popup.PopupPresenter" preserve="all" />
-    <type fullname="YGG.Game.Visualization.Runtime.UI.Popup.PopupView" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Popup.PopupMessagePresenter" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Popup.PopupMessageView" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Popup.Profile.PopupProfilePresenter" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Popup.Profile.PopupProfileView" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Popup.Reward.PopupRewardItemView" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Popup.Reward.PopupRewardPresenter" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Popup.Reward.PopupRewardView" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.ResizeToTextContent" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Scripts.HUD.UITransitionPresenter" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Scripts.HUD.UITransitionView" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.UI.Setting.SettingPresenter" preserve="all" />
     <type fullname="YGG.Game.Visualization.Runtime.UI.Setting.SettingView" preserve="all" />
-    <type fullname="YGG.Game.Visualization.Runtime.UI.Popup.PopupAssetData`1" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Game.Visualization.Runtime.Playground.Symbol.PlaygroundSymbolDataTableRow" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.StatValueView" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.SyncChildSizeToParentComponent" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Tutorial.ToolTipView" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Tutorial.TutorialDataAsset" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Tutorial.TutorialPresenter" preserve="all" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Tutorial.TutorialView" preserve="all" />
     <type fullname="VLB.MinMaxRangeFloat" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Game.Visualization.Runtime.NPC.Scripts.CelebrationPointData" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Game.Visualization.Runtime.Playground.Area.AreaLoader/AreaInfo" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.NPC.PathNpcMovementExecutor" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.NPC.SpineNpcRenderHandler" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.Playground.CenterStage.GardenPattern.GardenCenterPatternController/CircleData" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.Playground.CenterStage.GardenPattern.GardenCenterPatternController/CircleDataSet" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.Playground.CenterStage.GardenPattern.GardenWavePatternConfig" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.Playground.CenterStage.GardenPattern.WavePositionData" preserve="nothing" serialized="true" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.MovingPlatform.CornerPlatformComponent/CornerPlatformData" preserve="nothing" serialized="true" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.MovingPlatform.SpineSymbolPlatform" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Game.Visualization.Runtime.Playground.NeonLights.NeonLights/BlinkStep" preserve="nothing" serialized="true" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.ScrollingSymbol.ScrollingSymbolComponent/SymbolScrollSprite" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.Playground.Symbol.PlaygroundSymbolDataTableRow" preserve="nothing" serialized="true" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.FeatureController.FreeSpinController" preserve="nothing" serialized="true" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.FeatureController.ReSpinController" preserve="nothing" serialized="true" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.PlayGroundAssetManager/CachingSymbolAssetReferenceDataAsset" preserve="nothing" serialized="true" />
     <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.GameplayHUDPresenter/AutoSpinButton" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.SpinFeaturePresenter/WinTierAnimation" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.SpinFeatureView/FeatureOutroAnimData" preserve="nothing" serialized="true" />
     <type fullname="YGG.Game.Visualization.Runtime.UI.HUD.SpinFeatureView/FeatureSkinData" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Game.Visualization.Runtime.NPC.PathNpcMovementExecutor" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Game.Visualization.Runtime.NPC.SpineNpcRenderHandler" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Tutorial.TutorialView/ButtonBinding" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Tutorial.TutorialView/GameObjectBinding" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.NPC.Scripts.CelebrationPointData" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.Playground.Area.AreaLoader/AreaInfo" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.Playground.NeonLights.NeonLights/BlinkStep" preserve="nothing" serialized="true" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.BeachDay.MapPathConfig" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Game.Visualization.Runtime.NPC.SpineSkinByAnimNpcRenderHandler" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Game.Visualization.Runtime.Playground.Area.CenterStageAssetLoader/ObjectInfo" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Game.Visualization.Runtime.NPC.PixelPathNpcMovementExecutor" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Game.Visualization.Runtime.NPC.AxiePathNpcMovementExecutor" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.ButtonComponent/ButtonConfig" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Tutorial.TutorialObject" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Tutorial.TutorialStep" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Popup.PopupActionBackToLobby" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Popup.PopupActionChangeTier" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Popup.PopupActionLogout" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.Playground.Area.PirateCenterFeatureController/TentacleSpineAnimationData" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Popup.PopupAssetData`1" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Popup.Reward.PopupRewardItemView/CategoryConfig" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Game.Visualization.Runtime.UI.Popup.Reward.PopupRewardView/ButtonModeData" preserve="nothing" serialized="true" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.FeatureController.PudgyCenterFeature/CenterMap" preserve="nothing" serialized="true" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.FeatureController.PudgyCenterFeature/WinningData" preserve="nothing" serialized="true" />
     <type fullname="YGG.Game.Visualization.Runtime.Playground.FeatureController.PudgyFreeSpinController" preserve="nothing" serialized="true" />
@@ -409,30 +479,105 @@
   </assembly>
   <assembly fullname="ygg.lobby.runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="YGG.Lobby.Runtime.BigEvent.BigEventCellView" preserve="all" />
-    <type fullname="YGG.Lobby.Runtime.BigEvent.BigEventFlickSnap" preserve="all" />
-    <type fullname="YGG.Lobby.Runtime.BigEvent.BigEventSelector" preserve="all" />
-    <type fullname="YGG.Lobby.Runtime.BigEvent.BigEventView" preserve="all" />
-    <type fullname="YGG.Lobby.Runtime.Event.EventCellPresenter" preserve="all" />
-    <type fullname="YGG.Lobby.Runtime.Event.EventCellView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Data.GameCardDataTable" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Event.LobbyEventPresenter" preserve="all" />
     <type fullname="YGG.Lobby.Runtime.Game.GameCellRowView" preserve="all" />
     <type fullname="YGG.Lobby.Runtime.Game.GameCellView" preserve="all" />
-    <type fullname="YGG.Lobby.Runtime.GameLobbyConfigDataAsset" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Header.LobbyCenterButtonGroupView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Header.LobbyHeaderView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.HorizontalFlickSnap" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Inbox.InboxItemView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Inbox.InboxLeaderBoardMailView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Inbox.InboxNormalMailView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Inbox.InboxPerkMailView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Inbox.InboxPresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Inbox.InboxView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.LeaderBoard.LeaderBoardPresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.LeaderBoard.LeaderBoardView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.LeaderBoard.LeaderDescriptionView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.LeaderBoard.LeaderRankingPanelView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.LeaderBoard.LeaderRankingUserView" preserve="all" />
     <type fullname="YGG.Lobby.Runtime.LobbyBodyPresenter" preserve="all" />
     <type fullname="YGG.Lobby.Runtime.LobbyBodyView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.LobbyLifeTimeScope" preserve="all" />
     <type fullname="YGG.Lobby.Runtime.LobbyPresenter" preserve="all" />
     <type fullname="YGG.Lobby.Runtime.LobbyView" preserve="all" />
     <type fullname="YGG.Lobby.Runtime.Multiplier.MultiplierCell" preserve="all" />
     <type fullname="YGG.Lobby.Runtime.Multiplier.MultiplierPresenter" preserve="all" />
     <type fullname="YGG.Lobby.Runtime.Multiplier.MultiplierView" preserve="all" />
-    <type fullname="YGG.Lobby.Runtime.ScrollRectSpeedController" preserve="all" />
-    <type fullname="YGG.Lobby.Runtime.SmallEvent.PcSmallEventPresenter" preserve="all" />
-    <type fullname="YGG.Lobby.Runtime.SmallEvent.SmallEventCell" preserve="all" />
-    <type fullname="YGG.Lobby.Runtime.SmallEvent.SmallEventCellView" preserve="all" />
-    <type fullname="YGG.Lobby.Runtime.SmallEvent.SmallEventView" preserve="all" />
-    <type fullname="YGG.Lobby.Runtime.BigEvent.BigEventPresenter" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Lobby.Runtime.Event.PcEventsPresenter" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Lobby.Runtime.GameLobbyConfig" preserve="nothing" serialized="true" />
-    <type fullname="YGG.Lobby.Runtime.SmallEvent.SmallEventPresenter" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.BannerCellView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.BannerOfferAvatarView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.BannerOfferCellView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.BannerOfferView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.Data.NftTokenInfoDataTable" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.NFT.NftCellView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.NFT.NftPresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.NFT.NftPreviewItemView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.NFT.NftPreviewPresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.NFT.NftPreviewView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.NFT.NftView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.NftBuyYGGView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.NftShopBodyPresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.NftShopBodyView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.NftShopPresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.Offer.BannerOfferPresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.Popup.NftPopupBuyMinItemView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.Popup.NftPopupBuyMintPresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.Popup.NftPopupBuyMintView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.Popup.Purchase.NftPopupPurchaseCurrencyValueView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.Popup.Purchase.NftPopupPurchaseView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.Popup.UseNft.NftPopupUseNftPresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.Popup.UseNft.NftPopupUseNftView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Popup.ConnectWallet.ConnectWalletPopupPresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Popup.ConnectWallet.ConnectWalletPopupView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Popup.Purchase.NftPopupPurchasePresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.PopupLobbyPresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.PopupLobbyView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.RewardShop.FreeRewardInfo.FreeRewardClaimCellView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.RewardShop.FreeRewardInfo.FreeRewardInfoCellView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.RewardShop.PremiumRewardInfo.PremiumRewardCellView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.RewardShop.PremiumRewardInfo.PremiumRewardRowCellView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.RewardShop.RewardShopPresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.RewardShop.SwapModeButtonView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.RewardShop.YGGTokenAddressInfoView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Shop.Popup.Transaction.BundleTransactionItemView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Shop.Popup.Transaction.MintTransactionItemView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Shop.Popup.Transaction.PopupTransactionPresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Shop.Popup.Transaction.PopupTransactionView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Shop.Popup.Transaction.RewardTransactionItemView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Shop.VIPShop.ConsumeItemPanel.VipConsumeItemCellView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Shop.VIPShop.ConsumeItemPanel.VipConsumeItemPresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Shop.VIPShop.ConsumeItemPanel.VipConsumeItemView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Shop.VIPShop.FreeRewardPanel.VipRewardPresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Shop.VIPShop.FreeRewardPanel.VipRewardView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Shop.VIPShop.VipShopBodyPresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Shop.VIPShop.VipShopBodyView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Shop.VIPShop.VipShopView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Shop.VIPShop.Voucher.VipVoucherItemView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Shop.VIPShop.Voucher.VipVoucherPresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Shop.VIPShop.Voucher.VipVoucherView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.SliderContainerPresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.SliderContainerView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.SliderSeletor" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.TierBackgroundComponent" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.TierLobbyDataTable" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.UINavigateButton" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.VIPShop.UserPanel.VipUserPresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.VIPShop.UserPanel.VipUserView" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.VIPShop.VipShopPresenter" preserve="all" />
+    <type fullname="YGG.Lobby.Runtime.Data.GameCardDataTableRow" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Lobby.Runtime.Inbox.InboxItemView/ItemData" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Lobby.Runtime.Inbox.InboxPerkMailView/PerkData" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Lobby.Runtime.LeaderBoard.LeaderRankingUserView/RankingBackground" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Lobby.Runtime.LobbyPresenter/TutorialMap" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Lobby.Runtime.Multiplier.MultiplierPresenter/MultiplierTier" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.Data.NftTokenInfoDataTableRow" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.NFT.NftPreviewPresenter/DefaultNft" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.NftShopBodyPresenter/DefaultNft" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Lobby.Runtime.NFTShop.NftShopBodyPresenter/NftMintAvatar" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Lobby.Runtime.Shop.Popup.Transaction.PopupTransactionView/TransactionTitle" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Lobby.Runtime.TierLobbyDataTableRow" preserve="nothing" serialized="true" />
+    <type fullname="YGG.Lobby.Runtime.Popup.PopupActionLinkWallet" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="DOTween">
     <type fullname="DG.Tweening.Plugins.Core.PathCore.Path" preserve="nothing" serialized="true" />
