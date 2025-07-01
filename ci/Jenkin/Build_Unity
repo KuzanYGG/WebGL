@@ -5,24 +5,12 @@ pipeline {
             steps {
 				script {
 					echo "Checkout branch = ${params.branch}"
-					def scmConfig = [
-							$class: 'GitSCM',
-							branches: [[name: "${params.branch}"]],
-							extensions: []
-						]
 					if (params.Clean) {
 						echo "Will do clean before checkout"
-						scmConfig.extensions << [
-							$class: 'CleanBeforeCheckout',
-							deleteUntrackedNestedRepositories: true
-						]
+						checkout scmGit(branches: [[name: '${branch}']], extensions: [submodule(recursiveSubmodules: true, reference: ''), cleanBeforeCheckout(deleteUntrackedNestedRepositories: true)], userRemoteConfigs: [])
+					} else {
+						checkout scmGit(branches: [[name: '${branch}']], extensions: [submodule(recursiveSubmodules: true, reference: '')], userRemoteConfigs: [])
 					}
-					scmConfig.extensions << [
-						$class: 'SubmoduleOption',
-						recursiveSubmodules: true,
-						reference: ''
-					]
-					checkout scmConfig
 				}
             }
         }
