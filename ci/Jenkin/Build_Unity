@@ -8,15 +8,14 @@ pipeline {
 					def scmConfig = [
 							$class: 'GitSCM',
 							branches: [[name: "${params.branch}"]],
-							userRemoteConfigs: [],
 							extensions: []
 						]
 					if (params.Clean) {
 						echo "Will do clean before checkout"
-						scmConfig.extensions << [$class: 'CleanBeforeCheckout']
+						scmConfig.extensions << [$class: 'cleanBeforeCheckout']
 					}
 					scmConfig.extensions << [
-						$class: 'SubmoduleOption',
+						$class: 'submodule',
 						recursiveSubmodules: true,
 						reference: ''
 					]
