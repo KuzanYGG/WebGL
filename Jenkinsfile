@@ -6,7 +6,7 @@ pipeline {
             steps {
                 checkout([
                     $class: 'GitSCM',
-                    branches: [[name: "*/Lobby"]],
+                    branches: [[name: "*/${branch}"]],
                 ])
             }
         }
